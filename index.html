@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>MockUp</title>
+</head>
+<body>
+
+    <!--Momo-->
+    <!-- Section banniere -->
+    <section id="banner" class="container-fluid banner">
+            <div class="row">
+                <div class="ban">
+                    <img src="images/accueil.jpg" alt="bannière du site">
+                </div>
+                <div class="inner-banner">
+                    <h1>A CHAQUE BOUCHEE UNE NOUVELLE SAVEUR</h1>
+                </div>
+            </div>
+    </section>
+<!-- Fin section banniere -->
+
+  <!-- Header -->
+<div class="container-fluid header">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-7 mon-menu" >
+                 <!-- Logo -->
+                 <div class="col-sm-5" >
+                    <a href="#">
+                        <img src="images/logo.png" alt="logo">
+                    </a>
+                </div><!-- Fin col-sm-5 --><!-- Fin logo -->
+
+                 <!-- Menu de navigation -->
+                <nav class="navbar navbar-default ">
+                    <!-- Menu burger -->
+                    <div class="navbar-header burger">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mynavbar">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div><!-- Fin menu burger -->
+                    
+                    <div class="collapse navbar-collapse" id="mynavbar">
+                        <ul class="nav navbar-nav pull-right">
+                            <li><a href="#" style="color: black; font-weight: bold">ACCUEIL</a></li>
+                            <li><a href="#avis" style="color: black; font-weight: bold">AVIS</a></li>
+                            <li><a href="#produit_visibility" style="color: black; font-weight: bold">PRODUITS</a></li>
+                            <li><a href="#contact" style="color: black; font-weight: bold">CONTACT</a></li>
+                        </ul>
+                    </div><!-- Fin collapse -->
+                </nav><!-- Fin menu de navigation -->
+            </div><!-- Fin col-sm-7 -->
+
+        </div><!-- Fin row -->
+    </div><!-- Fin container -->
+</div><!-- Fin container-fluid -->
+<!-- Fin header -->
+
+<!-- Section avis -->
+<section id="avis" class="container-fluid avis">
+<div class="container text-center">
+        <div class="row"  style="padding:40px">
+            <div class="col-md-4">
+                <img src="images/arthur.jpg" alt="" class="photo-arthur">
+                <p class="noms" style="padding:10px">
+                    ARTHUR GOD<br>CRITIQUE GASTRONOME
+                </p>
+                <p class="texte-avis">
+                    Sedibus sed soli et per diutius aut longe nec turbidis victum gentes Nili placet sine et has raptantes ad per vel caelum errant omnes turbidis raptantes seminudi gentes rebus: lare.
+                </p>
+            </div>
+            <div class="col-md-4">
+                <img src="images/salif.jpg" alt="" class="photo-cristina">
+                <p class="nom" style="padding:10px">
+                        SALIF ZIL<br>CHOCOLATIEU
+                    </p>
+                    <p class="texte-avis">
+                        Sedibus sed soli et per diutius aut longe nec turbidis victum gentes Nili placet sine et has raptantes ad per vel caelum errant omnes turbidis raptantes seminudi gentes rebus: lare.
+                    </p>
+            </div>
+            <div class="col-md-4">
+                    <img src="images/cristina.jpg" alt=""class="photo-salif">
+                    <p class="nom" style="padding:10px">
+                            CRISTINA LA<br>PATISSIERE
+                        </p>
+                        <p class="texte-avis">
+                            Sedibus sed soli et per diutius aut longe nec turbidis victum gentes Nili placet sine et has raptantes ad per vel caelum errant omnes turbidis raptantes seminudi gentes rebus: lare.
+                        </p>
+            </div>
+        </div>
+</div>
+</section>
+<!-- Fin section avis -->
+
+
+
+    <!--Aliou-->
+    <!--Produits-->
+    <div id="produit_visibility" class="container-fluid">
+        <div id="slide_produit" class="row">
+            <img src="images/cupcakes.jpg" alt="slider produits" class="" id="img1">
+            <img src="images/cake_pops.jpg" alt="slider produits" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 image_hidden slide" id="img2">
+            <img src="images/ice.jpg" alt="slider produits" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 image_hidden slide" id="img3">
+            <img src="images/praline.jpg" alt="slider produits" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 image_hidden slide" id="img4">
+            <img src="images/produit-mock.png" alt="slider produits" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 image_hidden slide" id="img5">
+        </div>
+        <div id="produits" class="row">
+            
+            <div class="produit_image">
+                
+                <img src="images/cupcakes.jpg" alt="produit" onclick="showImage(1)">
+               
+            </div>
+            <div class="produit_image">
+                
+                <img src="images/cake_pops.jpg" alt="produit" onclick="showImage(2)">
+                
+            </div>
+            <div class="produit_image">
+                
+                <img src="images/ice.jpg" alt="produit" onclick="showImage(3)">
+                
+            </div>
+            <div class="produit_image">
+               
+                <img src="images/praline.jpg" alt="produit" onclick="showImage(4)">
+               
+            </div>
+            <div class="produit_image">
+               
+                <img src="images/produit-mock.png" alt="produit" id="img5" onclick="showImage(5)">
+                
+            </div>
+        </div>
+    </div>
+
+    <div id="contact">
+        <div class="row">
+            <form action="#" method="post" class="col-sm-12 col-xs-12"></form>
+                <label for="idPrenom" class="form_element">PRÉNOM
+                    <input type="text" id="idPrenom" name="prenom" class="form_element">
+                </label>
+                <label for="idNom" class="form_element">NOM
+                    <input type="text" id="idNom" name="nom" class="form_element">
+                </label >
+                <label for="idEmail" class="form_element">EMAIL
+                    <input type="email" id="idEmail" name="email" class="form_element">
+                </label>
+                <label for="idMessage" class="form_element">MESSAGE
+                    <textarea name="message" id="idMessage" class="form_element"></textarea>
+                </label>
+
+                <button type="submit" class="btn">ENVOYER</button>
+                <button type="reset" class="btn">ANNULER</button>
+                
+            </form>
+        </div>
+    </div>
+    
+    <footer class="container-fluid">
+        <div class="collapse navbar-collapse" id="menu_footer">
+            <ul class="nav navbar-nav">
+                <li><a href="">ACCUEIL</a></li>
+                <li><a href="#avis">AVIS</a></li>
+                <li><a href="#produits">PRODUITS</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+        </div>
+        <p class="copyright">2013 ©</p>
+    </footer>
+
+
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

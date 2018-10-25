@@ -1,0 +1,292 @@
+/*Momo*/
+/*
+body
+{
+	background-image: url('../images/accueil.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+*/
+/* Logo */
+.col-sm-5 img
+{
+    width: 75px;
+    height: 75px;
+}
+
+/* Menu de navigation */
+ul{
+    padding: 12px;
+}
+
+
+
+ul li a {
+    color: #000000;
+}
+.header
+{
+    opacity: 0.8;
+    background-color: #dddcdc;
+    line-height: 70px;
+    width: 100%;
+    max-width: 100%;
+    position: absolute;
+    top: 0; 
+}
+.mon-menu
+{
+    width: 100%;
+
+}
+.mon-menu .navbar-default
+{
+    background: none;
+    border: none;
+}
+.mon-menu li:hover
+{
+    border: solid 2px #d73351;
+}
+/*Burger menu*/
+.burger
+{
+    position: relative;
+}
+
+/* Section banniere */
+.banner
+{
+    width: 100%;
+    max-width: 100%;
+}
+.ban
+{
+    width: 100%;
+    max-width: 100%;
+    position: relative;
+}
+.ban img
+{
+    width: 100%;
+    max-width: 100%;
+}
+.inner-banner
+{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    background-color: #dddcdc;
+    opacity: 0.8;
+}
+
+@media screen and (max-width: 600px) {
+    .inner-banner {
+        top: 150px;
+    }
+    .inner-banner h1 {
+        font-size: 20px;
+    }
+}
+
+.inner-banner h1
+{
+    font-family: 'Century Schoolb...','sans-serif';
+    color: #d73351;
+}
+
+/* Section avis */
+.avis
+{
+    background-color: #b76b72;
+    width: 100%;
+    height: auto;
+}
+.photo-arthur
+{
+    border-radius: 50%;
+    width:150px;
+    height:150px;
+}
+.nom
+{
+    font-size: 12px;
+    font-family: 'Century Schoolb', 'serif';
+    color: #47262a;
+}
+.photo-cristina
+{
+    border-radius: 50%;
+    width:150px;
+    height:150px;
+}
+.photo-salif
+{
+    border-radius: 50%;
+    width:150px;
+    height:150px;
+}
+.texte-avis
+{
+    font-size: 20px;
+    color: #000000;
+    text-align: justify;
+}
+
+
+
+
+
+
+/*Aliou*/
+html, body {
+    padding: 0%;
+    
+}
+
+#produit_visibility {
+    background-image: url(../images/bg_produits.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 50px;
+}
+
+#slide_produit {
+    width: 100%;
+    display: block;
+}
+
+#slide_produit img {
+    width: 50%;
+    height: 100%;
+    margin-left: 25%;
+}
+
+#produits {
+    text-align: center;
+}
+
+#produits .produit_image {
+    display: inline-block;
+    padding: 20px;
+}
+
+#produits .produit_image img {
+    width: 200px;
+    height: 200px;
+}
+
+.image_hidden {
+    display: none;
+}
+
+#contact {
+    background-image: url(../images/texture.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20px 50px 150px 50px;
+}
+
+.form_element {
+    display: block;
+    opacity: 1;
+    padding: 15px;
+}
+
+input, textarea {
+    border: #000000 solid 1px;
+    background: none;
+}
+
+input {
+    width: 400px;
+    height: 65px;
+}
+
+textarea {
+    width: 600px;
+    min-height: 150px;
+    max-height: 300px;
+   
+}
+
+
+.btn {
+    width: 200px;
+    height: 50px;
+    background-color: #d73351;
+    border: none;
+    color: #ffffff;
+    margin-left: 100px;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #d73351;
+    margin: 0%;
+    height: auto;
+}
+
+#menu_footer {
+    width: 100%;
+    margin-left: 0%;
+}
+
+#menu_footer ul li:hover a {
+    border: #ffffff solid 2px;
+    background: none;
+}
+
+#menu_footer ul li a {
+    color: #ffffff;
+}
+
+.copyright {
+    color: #ffffff;
+    font-size: 16px;
+    width: 100%;
+    background-color: #d73351;
+    text-align: right;
+}
+
+@media screen and (max-width: 800px) {
+
+    .slide_produit {
+        display: none;
+    }
+
+    form {
+        min-height: 10em;
+        display: table-cell;
+        vertical-align: middle 
+    }
+
+    input, textarea {
+        width: 100%;
+    }
+    .btn {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    form button {
+        display: block;
+    }
+
+    #menu_footer {
+        display: none;
+    }
+    
+    .copyright {
+        background-color: #d73351;
+    }
+
+    .copyright {
+        text-align: center;
+    }
+}
+/*
+@media screen and (max-width: 575px) {
+    
+}*/
